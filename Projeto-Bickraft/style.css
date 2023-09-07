@@ -210,4 +210,12 @@ footer {
         font-size: 3em;
         text-align: center;
     }
+
+    main .descricao p {
+        font-size: .8em;
+        line-height: 21px;
+        color: #1d1d1d;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
 }
