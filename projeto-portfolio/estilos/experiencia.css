@@ -1,0 +1,32 @@
+
+section.experiencia div.experiencia-div p.config-p strong{
+    color: #000;
+}
+
+section.experiencia div.experiencia-div div.experiencia-work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1.5rem 0;
+    padding: .8rem;
+    background-color: #e0e0e078;
+}
+
+
+section.experiencia div.experiencia-div div.experiencia-work p{
+    margin: 10px 40px 0 0;
+    font-size: .9rem;
+    color: #525252;
+}
+
+section.experiencia div.experiencia-div div.experiencia-work ul{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;    
+    gap: 20px;
+    margin: 10px 0 0 0;
+}
+
+section.experiencia div.experiencia-div div.experiencia-work ul li{
+    background-color: #fff;
+    padding: 5px;
+}
