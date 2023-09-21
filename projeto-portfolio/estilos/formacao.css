@@ -1,0 +1,89 @@
+section.formacao{
+    background-color: #141414;
+    color: #fff;
+}
+
+section.formacao div.section-div-formacao div.formacao-div p.formacao-txt{
+    color: #A3A3A3;
+    margin: 0 0 30px 0;
+}
+
+section.formacao div.section-div-formacao div.formacao-div p.formacao-txt strong{
+    color: #fff;
+}
+
+
+section.formacao div.section-div-formacao h2.formatacao-h2{
+    max-width: 5ch;
+    color: #000;
+}
+
+section.formacao div.section-div-formacao div.formacao-div div.formacao-conclusao{
+    display: flex;
+    gap: 20px;
+}
+
+section.formacao div.section-div-formacao div.formacao-div div.formacao-conclusao div.formacao-conclusao-div{
+    background-color: #000;   
+    padding: 15px; 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+section.formacao div.section-div-formacao div.formacao-div div.formacao-conclusao div.formacao-conclusao-div h3{
+    position: relative;
+}
+
+section.formacao div.section-div-formacao div.formacao-div div.formacao-conclusao div.formacao-conclusao-div h3::after{
+    content: '';
+    width: 3px;
+    height: 20px;
+    background-color: #95ED1C;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.cursos-linguas{
+    margin: 50px 0;
+}
+
+.cursos-linguas .sec-cl{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cursos-linguas .sec-cl ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+}
+
+.cursos-linguas .sec-cl h3,
+span{
+    color: #A3A3A3;
+}
+
+.cursos-linguas .idiomas ul li{
+    justify-content: flex-start;
+}
+
+@media (max-width: 800px){
+    section.formacao div.section-div-formacao h2.formatacao-h2{
+        max-width: initial;
+        color: #fff;
+    }
+
+    
+}   
+
+@media (max-width: 800px){
+    section.formacao div.section-div-formacao div.formacao-div div.formacao-conclusao{
+        flex-direction: column;
+    }
+}
